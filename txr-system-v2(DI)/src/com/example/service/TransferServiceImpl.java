@@ -1,20 +1,22 @@
 package com.example.service;
 
 import com.example.model.Account;
-import com.example.repository.JdbcAccountRepository;
+import com.example.repository.AccountRepository;
 
-public class TransferService {
+public class TransferServiceImpl implements TransferService {
 
+    private AccountRepository accountRepository;
 
-    public TransferService() {
+    public TransferServiceImpl(AccountRepository accountRepository) {
         System.out.println("TransferService instance created..");
+        this.accountRepository = accountRepository;
     }
 
+
+    @Override
     public void transfer(double amount, String sourceAccNumber, String targetAccNumber){
 
         System.out.println("transfer initiated..");
-
-        JdbcAccountRepository accountRepository=new JdbcAccountRepository();
 
         Account sourceAccount=accountRepository.loadAccount(sourceAccNumber);
         Account targetAccount=accountRepository.loadAccount(targetAccNumber);

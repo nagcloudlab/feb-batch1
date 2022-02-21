@@ -2,10 +2,10 @@ package com.example.repository;
 
 import com.example.model.Account;
 
-public class JdbcAccountRepository {
+public class JpaAccountRepository {
 
-    public JdbcAccountRepository() {
-        System.out.println("JdbcAccountRepository instance created..");
+    public JpaAccountRepository() {
+        System.out.println("JpaAccountRepository instance created..");
     }
 
     public Account loadAccount(String number){
