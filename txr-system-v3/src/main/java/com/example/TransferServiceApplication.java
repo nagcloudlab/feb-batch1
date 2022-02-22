@@ -15,6 +15,7 @@ public class TransferServiceApplication {
         TransferService transferService=new TransferServiceImpl(jdbcAccountRepository);
 
         System.out.println("-".repeat(50));
+
         // Use
 
         transferService.transfer(100.00,"1","2");
@@ -26,6 +27,6 @@ public class TransferServiceApplication {
 
         //.....
 
-    }
 
+    }
 }

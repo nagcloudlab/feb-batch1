@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43020b74-9ae5-4ea9-9054-34601c646bb1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/txr-system-v2(DI)/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txr-system-v2(DI)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txr-system-v2(DI)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txr-system-v2(DI)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txr-system-v2(DI)/src/com/example/TransferServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txr-system-v2(DI)/src/com/example/model/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txr-system-v2(DI)/src/com/example/repository/AccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txr-system-v2(DI)/src/com/example/repository/JdbcAccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txr-system-v2(DI)/src/com/example/repository/JpaAccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txr-system-v2(DI)/src/com/example/service/TransferService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txr-system-v2(DI)/src/com/example/service/TransferServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txr-system-v2(DI)/txr-system-v2.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43020b74-9ae5-4ea9-9054-34601c646bb1" name="Default Changelist" comment="" />
+      <created>1645496419792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645496419792</updated>
+    </task>
+    <servers />
+  </component>
+</project>
