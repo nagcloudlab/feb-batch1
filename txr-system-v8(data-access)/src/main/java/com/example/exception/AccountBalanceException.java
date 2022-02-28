@@ -1,2 +1,7 @@
-package com.example.exception.service;public class AccountBalanceException {
+package com.example.exception;
+
+public class AccountBalanceException extends RuntimeException {
+    public AccountBalanceException(String message) {
+        super(message);
+    }
 }
