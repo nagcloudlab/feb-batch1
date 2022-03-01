@@ -1,2 +1,19 @@
-package com.example.config;public class MvcConfiguration {
+package com.example.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.ViewResolver;
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
+
+@Configuration
+public class MvcConfiguration {
+
+    @Bean
+    public ViewResolver viewResolver(){
+        InternalResourceViewResolver viewResolver=new InternalResourceViewResolver();
+        viewResolver.setPrefix("/views/");
+        viewResolver.setSuffix(".jsp");
+        return  viewResolver;
+    }
+
 }

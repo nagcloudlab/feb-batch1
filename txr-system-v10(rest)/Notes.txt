@@ -1,0 +1,40 @@
+
+
+
+How to design REST-api
+------------------------
+
+1- Resource identification in requests ( URI )
+
+    /accounts
+    /accounts/{number}
+    /accounts/{number}/transactions
+    /transfer
+
+2- Resource manipulation through representations
+
+    application/xml, application/json
+
+3- Self-descriptive messages
+
+    HTTP/Custom headers
+
+4- Hypermedia as the engine of application state (HATEOAS)
+
+
+---------------------------------------------------------------
+
+How to implement REST api in java-language ?
+
+
+2 choices,
+
+
+    1. JAX-RS
+
+        - RestEasy form Jboss community
+        - Jersey from glassfish community
+        - ...
+
+    2. Spring MVC  ( our focus )
+

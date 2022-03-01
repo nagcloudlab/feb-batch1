@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="txr-system-v8(data-access)" />
+        <module name="txr-system-v7(aop)" />
+        <module name="txr-system-v9(web)" />
+        <module name="txr-system-v5(anno)" />
+        <module name="txr-system-v6(java-config)" />
+        <module name="txr-system-v10(rest)" />
+        <module name="txr-system-v4" />
+        <module name="txr-system-v3" />
+        <module name="txr-system-v5" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
