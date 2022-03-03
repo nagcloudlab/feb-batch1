@@ -1,0 +1,31 @@
+
+guidelines to develop application
+-----------------------------------
+------------------------------------------------------------------------
+step-1:data-model
+------------------------------------------------------------------------
+
+    - Account
+    - TransferHistory
+    - ...
+
+------------------------------------------------------------------------
+step-2: Layered Arch
+------------------------------------------------------------------------
+
+    1. data / repository ==> persisting logic
+
+        i.e CRUD operations
+
+    2. business / service  ==> processing logic
+
+        i.e implementations use-cases
+
+    3. Web/Api Layer  => request & response logic
+
+        i.e Controller
+
+        -> View Based  ( deprecated )
+        -> API based  i.e REST API
+
+------------------------------------------------------------------------
