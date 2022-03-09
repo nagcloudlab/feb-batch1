@@ -1,0 +1,29 @@
+
+
+greeting-service:
+-----------------
+
+dev-envi
+------------
+    OS       : windows
+    language : Java
+    runtime  : JRE-11
+    framework: spring with spring-boot
+
+
+staging/prod-envi
+-----------------
+
+    OS       : linux
+    container-engine : docker
+
+
+-----------------------------------------------
+
+
+steps to work with docker ?
+    - build an image ( using Dockerfile )
+    - push the image registry ( public | private )
+    - pull the image create & start container(s)
+
+--------------------------------------------------
