@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  redis:
+    image: redis
+  greeting:
+    build: .
+    ports:
+      - "8080:8080"

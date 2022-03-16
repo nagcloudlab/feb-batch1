@@ -15,7 +15,10 @@ public class SpringbootGreetingServiceApplication {
 
     @Bean
     JedisConnectionFactory jedisConnectionFactory() {
-        return new JedisConnectionFactory();
+        JedisConnectionFactory connectionFactory= new JedisConnectionFactory();
+        connectionFactory.setHostName("redis");
+        connectionFactory.setPort(6379);
+        return  connectionFactory;
     }
 
     @Bean
