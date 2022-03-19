@@ -90,12 +90,8 @@ public class ProductCompositeIntegration implements ProductService, Recommendati
   public Mono<Product> getProduct(int productId) {
     String url = productServiceUrl + "/product/" + productId;
     LOG.debug("Will call the getProduct API on URL: {}", url);
-    return webClient.get()
-            .uri(url)
-            .retrieve()
-            .bodyToMono(Product.class)
-            .log(LOG.getName(), FINE)
-            .onErrorMap(WebClientResponseException.class, ex -> handleException(ex));
+
+    return webClient.get().uri(url).retrieve().bodyToMono(Product.class).log(LOG.getName(), FINE).onErrorMap(WebClientResponseException.class, ex -> handleException(ex));
   }
 
   @Override
@@ -185,7 +181,7 @@ public class ProductCompositeIntegration implements ProductService, Recommendati
     Message message = MessageBuilder.withPayload(event)
       .setHeader("partitionKey", event.getKey())
       .build();
-    streamBridge.send(bindingName, message); //
+    streamBridge.send(bindingName, message);
   }
 
   private Throwable handleException(Throwable ex) {
